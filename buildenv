@@ -1,11 +1,12 @@
 # Update bump details accordingly. Use bump check to confirm.
 # bump: creduce-version /CREDUCE_VERSION="(.*)"/ https://github.com/csmith-project/creduce.git|semver:*
-# CREDUCE_VERSION="V.R.M" # Specify a stable release
-# export ZOPEN_STABLE_TAG="v${CREDUCE_VERSION}"
+CREDUCE_VERSION="2.10.0" # Specify a stable release
+export ZOPEN_STABLE_TAG="v${CREDUCE_VERSION}"
 export ZOPEN_STABLE_URL="https://github.com/csmith-project/creduce.git"
 export ZOPEN_STABLE_DEPS="flex perl zlib autoconf automake"
 export ZOPEN_BUILD_LINE="STABLE"
 export ZOPEN_CATEGORIES="testing"
+export ZOPEN_CLONE_SUBMODULES="yes"
 
 zopen_check_results()
 {
