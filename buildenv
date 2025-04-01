@@ -6,7 +6,7 @@ export ZOPEN_STABLE_URL="https://github.com/csmith-project/creduce.git"
 export ZOPEN_STABLE_DEPS="flex perl zlib autoconf automake"
 export ZOPEN_BUILD_LINE="STABLE"
 export ZOPEN_CATEGORIES="testing"
-export ZOPEN_CLONE_FULL="yes"
+export ZOPEN_CLONE_SUBMODULES="yes"
 
 zopen_check_results()
 {
